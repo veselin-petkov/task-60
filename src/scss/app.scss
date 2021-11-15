@@ -13,7 +13,7 @@
 /* Mixins, helpers and functions */
 @import "base/mixins";
 
-@media screen and (max-width:600px) {
+@media screen and (min-width:600px) {
   .navbar-menu{
     visibility: hidden;
   }
